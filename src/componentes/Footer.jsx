@@ -6,8 +6,10 @@ import image from '../img/logo-sinfondo.png';
 export default function Footer() {
     return(
          
-        <div className="bg-rose-700 flex p-5">
+        <div className="bg-rose-700 flex p-7">
+            
             <img src={image} alt="" className=" h-52"/>
+
             <div className="w-1/2">
                 <h2 className="font-extrabold text-rose-300 text-center">
                     Contactos
@@ -51,21 +53,21 @@ export default function Footer() {
                     Redes Sociales
                 </h2>
                 
-                <ul className=" flex space-x-20 mx-40 p-10">
+                <ul className=" flex space-x-9 justify-center p-2">
                     <li>
-                        <a href="https://wa.me/573234701672" className=" mx-5">
+                        <a href="https://wa.me/573234701672" className=" mx-1">
                         <BsWhatsapp className="fill-rose-300 text-4xl"/>
                         </a>
                     </li>
                     
                     <li>
-                        <a href="https://www.facebook.com/kanddyhouse/photos/?ref=page_internal" className=" mx-5">
+                        <a href="https://www.facebook.com/kanddyhouse/photos/?ref=page_internal" className=" mx-1">
                             <BsFacebook className="fill-rose-300 text-4xl"/>
                         </a>
                     </li>
                     
                     <li>
-                        <a href="https://www.instagram.com/kanddyhouse/" className=" mx-5">
+                        <a href="https://www.instagram.com/kanddyhouse/" className=" mx-1">
                             <BsInstagram className="fill-rose-300 text-4xl"/>
                         </a>
                     </li>
