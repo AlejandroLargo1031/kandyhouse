@@ -1,3 +1,7 @@
+import { BsWhatsapp } from "react-icons/bs";
+import { BsInstagram } from "react-icons/bs";
+import { BsFacebook } from "react-icons/bs";
+
 
 export default function Footer() {
     return(
@@ -41,23 +45,29 @@ export default function Footer() {
             </div>
             
             <div className="w-1/2">
-                <h2 className="font-extrabold text-rose-300 text-center">
-                    Nuestras Redes Sociales
+                <h2 className="font-extrabold text-rose-300 text-center ">
+                    Redes Sociales
                 </h2>
                 
-                <ul>
+                <ul className=" flex space-x-20 mx-40 p-10">
                     <li>
-                        
-                        
+                        <a href="https://wa.me/573234701672" className=" mx-5">
+                        <BsWhatsapp className="fill-rose-300 text-3xl"/>
+                        </a>
                         
                     </li>
                     
                     <li>
+                        <a href="https://www.facebook.com/kanddyhouse/photos/?ref=page_internal" className=" mx-5">
+                            <BsFacebook className="fill-rose-300 text-3xl"/>
 
+                        </a>
                     </li>
                     
                     <li>
-
+                        <a href="https://www.instagram.com/kanddyhouse/" className=" mx-5">
+                            <BsInstagram className="fill-rose-300 text-2xl"/>
+                        </a>
                     </li>
                 </ul>
 
