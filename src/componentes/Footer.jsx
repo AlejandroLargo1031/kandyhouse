@@ -5,10 +5,12 @@ import { BsFacebook } from "react-icons/bs";
 
 export default function Footer() {
     return(
+         
         <div className="bg-rose-700 flex p-5">
+            
             <div className="w-1/2">
                 <h2 className="font-extrabold text-rose-300 text-center">
-                    Contacto
+                    Contactos
                 </h2>
                 
                 <div className="mt-10 space-y-4 mx-40">
@@ -54,13 +56,11 @@ export default function Footer() {
                         <a href="https://wa.me/573234701672" className=" mx-5">
                         <BsWhatsapp className="fill-rose-300 text-3xl"/>
                         </a>
-                        
                     </li>
                     
                     <li>
                         <a href="https://www.facebook.com/kanddyhouse/photos/?ref=page_internal" className=" mx-5">
                             <BsFacebook className="fill-rose-300 text-3xl"/>
-
                         </a>
                     </li>
                     
