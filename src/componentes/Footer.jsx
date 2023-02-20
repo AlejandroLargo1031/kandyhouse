@@ -53,7 +53,7 @@ export default function Footer() {
                     Redes Sociales
                 </h2>
                 
-                <ul className=" flex space-x-9 justify-center p-2">
+                <ul className=" flex space-x-9 justify-center p-3">
                     <li>
                         <a href="https://wa.me/573234701672" className=" mx-1">
                         <BsWhatsapp className="fill-rose-300 text-4xl"/>
@@ -61,7 +61,7 @@ export default function Footer() {
                     </li>
                     
                     <li>
-                        <a href="https://www.facebook.com/kanddyhouse/photos/?ref=page_internal" className=" mx-1">
+                        <a href="https://www.facebook.com/kanddyhouse" className=" mx-1">
                             <BsFacebook className="fill-rose-300 text-4xl"/>
                         </a>
                     </li>
