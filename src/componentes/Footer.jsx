@@ -1,27 +1,28 @@
-import { BsWhatsapp } from "react-icons/bs";
-import { BsInstagram } from "react-icons/bs";
-import { BsFacebook } from "react-icons/bs";
+import { FaWhatsapp } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
+import { FaTiktok } from "react-icons/fa";
 import image from '../img/logo-sinfondo.png';
 
 export default function Footer() {
     return(
-         
-        <div className="bg-rose-700 flex p-7">
+        <div className="bg-rose-700  py-4 flex p-7">
             
-            <img src={image} alt="" className=" h-52"/>
+            <img src={image} alt="" className=" h-52 "/>
 
             <div className="w-1/2">
-                <h2 className="font-extrabold text-rose-300 text-center">
+                <h2 className="font-extrabold text-rose-300 text-center ">
                     Contactos
                 </h2>
                 
-                <div className="mt-10 space-y-4 mx-40">
+                <div className="mt-10 space-y-4 mx-40  ">
+                    
                     <div className="flex space-x-4 ">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 fill-rose-300">
                            <path fill-rule="evenodd" d="M1.5 4.5a3 3 0 013-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 01-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 006.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 011.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 01-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5z" clip-rule="evenodd" />
                         </svg>
                         <span className="text-rose-300 font-bold">
-                           +57 (323) 470-1672
+                         +57 (323) 470-1672
                         </span>
                     </div>
 
@@ -48,7 +49,7 @@ export default function Footer() {
 
             </div>
             
-            <div className="w-1/2">
+            <div className="w-1/2 text-center justify-between items-center ">
                 <h2 className="font-extrabold text-rose-300 text-center ">
                     Redes Sociales
                 </h2>
@@ -56,24 +57,31 @@ export default function Footer() {
                 <ul className=" flex space-x-9 justify-center p-3">
                     <li>
                         <a href="https://wa.me/573234701672" className=" mx-1">
-                        <BsWhatsapp className="fill-rose-300 text-4xl"/>
+                        <FaWhatsapp className="fill-rose-300 text-4xl"/>
                         </a>
                     </li>
                     
                     <li>
                         <a href="https://www.facebook.com/kanddyhouse" className=" mx-1">
-                            <BsFacebook className="fill-rose-300 text-4xl"/>
+                            <FaFacebook className="fill-rose-300 text-4xl"/>
                         </a>
                     </li>
                     
                     <li>
                         <a href="https://www.instagram.com/kanddyhouse/" className=" mx-1">
-                            <BsInstagram className="fill-rose-300 text-4xl"/>
+                            <FaInstagram className="fill-rose-300 text-4xl"/>
+                        </a>
+                    </li>
+
+                    <li>
+                    <a href="https://www.tiktok.com/@kandyhouse532?_t=8a35QUIfwjW&_r=1" className=" mx-1">
+                            <FaTiktok className="fill-rose-300 text-4xl"/>
                         </a>
                     </li>
                 </ul>
 
             </div>
+            
 
         </div>
     );
