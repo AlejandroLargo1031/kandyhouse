@@ -6,9 +6,10 @@ import image from "../img/logo-sinfondo.png";
 
 export default function Footer() {
   return (
-    <div className="bg-rose-700  py-4 flex p-7">
-      <img src={image} alt="" className=" h-52 " />
-
+    <div className="bg-rose-700  py-4 flex p-7 min-h-min items-center justify-center object-scale-down">
+      <div className="object-scale-down">
+        <img src={image} alt="" className="h-40" />
+      </div>
       <div className="w-1/2">
         <h2 className="font-extrabold text-rose-300 text-center ">Contactos</h2>
 
@@ -25,9 +26,7 @@ export default function Footer() {
                 clip-rule="evenodd"
               />
             </svg>
-            <span className="text-rose-300 font-bold">
-              +57 (323) 470-1672
-            </span>
+            <span className="text-rose-300 font-bold">+57 (323) 470-1672</span>
           </div>
 
           <div className="flex space-x-4">
