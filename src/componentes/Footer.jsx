@@ -26,7 +26,7 @@ export default function Footer() {
                 clip-rule="evenodd"
               />
             </svg>
-            <span className="text-rose-300 font-bold">+57 (323) 470-1672</span>
+            <p className="text-rose-300 font-bold">+57 (323) 470-1672</p>
           </div>
 
           <div className="flex space-x-4">
@@ -38,9 +38,9 @@ export default function Footer() {
               <path d="M1.5 8.67v8.58a3 3 0 003 3h15a3 3 0 003-3V8.67l-8.928 5.493a3 3 0 01-3.144 0L1.5 8.67z" />
               <path d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z" />
             </svg>
-            <span className="text-rose-300 font-bold">
+            <p className="text-rose-300 font-bold">
               kanddyhouse@gmail.com
-            </span>
+            </p>
           </div>
 
           <div className="flex space-x-4 ">
@@ -55,9 +55,9 @@ export default function Footer() {
                 clip-rule="evenodd"
               />
             </svg>
-            <span className="text-rose-300 font-bold">
+            <p className="text-rose-300 font-bold">
               Cra 121a #47-108, Ciudad Pacifica
-            </span>
+            </p>
           </div>
         </div>
       </div>
