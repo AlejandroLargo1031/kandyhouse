@@ -1,16 +1,16 @@
-import image from './img/img.jpeg';
-import Ejemplo from './components/ejemplo/Ejemplo';
+import { BrowserRouter } from "react-router-dom";
+import { Myroutes } from "./routes/routes";
+import Sidebar from "./components/Sidebar";
 
 export default function App() {
   return (
-    <><h1 className="text-3xl font-bold underline">
-      {/* components */}
-      Hello world!
-    </h1>
-    <div>
-      <img src={image} alt=""/>
-    </div>
-      <Ejemplo></Ejemplo>
+    <>
+      <BrowserRouter>
+        <div className="flex w-full">
+          <Sidebar></Sidebar>
+          <Myroutes></Myroutes>
+        </div>
+      </BrowserRouter>
     </>
-  )
+  );
 }
