@@ -56,6 +56,7 @@ function Sidebar() {
                   </span>
                 </div>
               </Link>
+              <Link to="/src/pages/Vision.jsx">
               <div className="flex items-center gap-x-4 cursor-pointer p-2 hover:bg-gray-500 rounded-md">
                 <AiFillEye
                   color="white"
@@ -65,8 +66,10 @@ function Sidebar() {
                   className={`${!open && "hidden"} origin-left duration-200`}
                 >
                   Vision
+
                 </span>
               </div>
+            </Link>
             </li>
           </ul>
         </div>
