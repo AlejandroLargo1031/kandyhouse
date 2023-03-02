@@ -4,6 +4,10 @@ import { Myroutes } from "./routes/routes";
 import Sidebar from "./components/Sidebar";
 
 
+
+import Footer from "./components/Footer.jsx";
+
+
 export default function App() {
   return (
     <>
@@ -11,10 +15,9 @@ export default function App() {
         <div className="flex w-full">
           <Sidebar></Sidebar>
           <Myroutes></Myroutes>
-          
         </div>
+        <Footer />
       </BrowserRouter>
-    
     </>
   );
 }

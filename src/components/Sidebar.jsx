@@ -13,8 +13,8 @@ function Sidebar() {
     <>
       <div
         className={`${
-          open ? "w-60" : "w-20"
-        } h-screen border-r-4 duration-300 p-5 pt-8 border-white bg-rose-300 relative`}
+          open ? "w-72" : "w-20"
+        }  border-r-4 duration-300 p-5 pt-8 border-white bg-rose-300 relative h-auto`}
       >
         <AiFillPlayCircle
           color="white"
@@ -31,7 +31,7 @@ function Sidebar() {
             ></AiFillHome>
           </Link>
           <h1
-            className={`text-white origin-left font-medium text-xl duration-300 ${
+            className={`text-white origin-left font-medium invisible md:visible text-xl duration-300 w-5 ${
               !open && "scale-0"
             }`}
           >
@@ -57,19 +57,18 @@ function Sidebar() {
                 </div>
               </Link>
               <Link to="/src/pages/Vision.jsx">
-              <div className="flex items-center gap-x-4 cursor-pointer p-2 hover:bg-gray-500 rounded-md">
-                <AiFillEye
-                  color="white"
-                  className={`cursor-pointer w-6 h-6 `}
-                ></AiFillEye>
-                <span
-                  className={`${!open && "hidden"} origin-left duration-200`}
-                >
-                  Vision
-
-                </span>
-              </div>
-            </Link>
+                <div className="flex items-center gap-x-4 cursor-pointer p-2 hover:bg-gray-500 rounded-md">
+                  <AiFillEye
+                    color="white"
+                    className={`cursor-pointer w-6 h-6 `}
+                  ></AiFillEye>
+                  <span
+                    className={`${!open && "hidden"} origin-left duration-200`}
+                  >
+                    Vision
+                  </span>
+                </div>
+              </Link>
             </li>
           </ul>
         </div>
