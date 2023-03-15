@@ -1,14 +1,29 @@
+import { BrowserRouter } from "react-router-dom";
+import { Myroutes } from "./routes/routes";
+import Sidebar from "./components/Sidebar";
 
-import Vision from './components/Vision';
+import Footer from './components/Footer.jsx';
+
+
 
 export default function App() {
   return (
-    <><h1 className="text-3xl font-bold underline">
-      {/* components */}
-      
-    </h1>
+    <>
+
+      <BrowserRouter>
+        <div className="flex w-full">
+          <Sidebar></Sidebar>
+        
+          <Myroutes></Myroutes>
+          
+        </div>
+        <Footer/>
+      </BrowserRouter>
     
-      <Vision></Vision>
+
+
     </>
-  )
+  );
 }
+
+
