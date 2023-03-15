@@ -1,6 +1,6 @@
 import React from "react";
 import fondo from "../img/logo.PNG";
-import {Link} from "react-router-dom";
+import Servicios from "../pages/Servicios";
 export default function P_Inicio() {
   return (
     <>
@@ -20,7 +20,9 @@ export default function P_Inicio() {
             </h2>
           </div>
         </div>
-        <Link to= "../pages/Servicios.jsx"></Link>
+        <div className="pt-2">
+          <Servicios></Servicios>
+        </div>
       </div>
     </>
   );
